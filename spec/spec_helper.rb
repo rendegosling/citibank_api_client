@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "citi/client"
 require 'coveralls'
+require "byebug"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
