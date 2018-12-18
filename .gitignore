@@ -11,3 +11,4 @@
 .rspec_status
 .rubocop.yml
 *.pem
+.byebug_history
