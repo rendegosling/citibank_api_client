@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/renlesterdg/citi-client/badge.svg?branch=master)](https://coveralls.io/github/renlesterdg/citi-client?branch=master) [![Build Status](https://travis-ci.org/renlesterdg/citi-client.svg?branch=master)](https://travis-ci.org/renlesterdg/citi-client)
+[![Coverage Status](https://coveralls.io/repos/github/renlesterdg/citi-api-client/badge.svg?branch=master)](https://coveralls.io/github/renlesterdg/citi-api-client?branch=master) [![Build Status](https://travis-ci.org/renlesterdg/citi-api-client.svg?branch=master)](https://travis-ci.org/renlesterdg/citi-api-client)
 
 # Citi::Client
 
@@ -9,7 +9,7 @@ Ruby Client for Citibank API
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'citi-client'
+gem 'citi-api-client'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install citi-client
+    $ gem install citi-api-client
 
 ## Usage
 
@@ -32,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/renlesterdg/citi-client.
+Bug reports and pull requests are welcome on GitHub at https://github.com/renlesterdg/citi-api-client.

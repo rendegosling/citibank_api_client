@@ -11,20 +11,20 @@
 # Configuration parameters: AllowForAlignment, ForceEqualSignAlignment.
 Layout/ExtraSpacing:
   Exclude:
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
 
 # Offense count: 1
 # Cop supports --auto-correct.
 Layout/LeadingBlankLines:
   Exclude:
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
 
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: AllowForAlignment.
 Layout/SpaceAroundOperators:
   Exclude:
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -39,7 +39,7 @@ Layout/SpaceInsideBlockBraces:
 # Cop supports --auto-correct.
 Style/ExpandPathArguments:
   Exclude:
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -59,7 +59,7 @@ Style/MutableConstant:
 # Configuration parameters: PreferredDelimiters.
 Style/PercentLiteralDelimiters:
   Exclude:
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
 
 # Offense count: 32
 # Cop supports --auto-correct.
@@ -70,7 +70,7 @@ Style/StringLiterals:
     - 'Gemfile'
     - 'Rakefile'
     - 'bin/console'
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
     - 'lib/citi/client.rb'
     - 'lib/citi/client/version.rb'
     - 'spec/citi/client_spec.rb'
@@ -80,7 +80,7 @@ Style/StringLiterals:
 # Cop supports --auto-correct.
 Style/UnneededPercentQ:
   Exclude:
-    - 'citi-client.gemspec'
+    - 'citi-api-client.gemspec'
 
 # Offense count: 7
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.

@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "citi/client"
+require "citi/apis"
 require 'coveralls'
 
 RSpec.configure do |config|
