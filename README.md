@@ -1,6 +1,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/renlesterdg/citi-api-client/badge.svg?branch=master)](https://coveralls.io/github/renlesterdg/citi-api-client?branch=master) [![Build Status](https://travis-ci.org/renlesterdg/citi-api-client.svg?branch=master)](https://travis-ci.org/renlesterdg/citi-api-client)
 
-# Citi::Client
+# Citi::APIClient
 
 Ruby Client for Citibank API
 
