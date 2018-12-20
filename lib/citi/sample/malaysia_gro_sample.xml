@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>MY/000008/XXX001</MsgId>
+			<CreDtTm>2010-10-28T11:11:00</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Nm>TEST INITIATING PARTY NAME</Nm>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>MY00XXX00000001</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>NURG</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<ReqdExctnDt>2017-08-02</ReqdExctnDt>
+			<Dbtr>
+				<Nm>TEST ORDERING PARTY NAME</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>987654321</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CITIMYKL</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtTrfTxInf>
+				<PmtId>
+					<EndToEndId>MY00XXX00B0001</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="MYR">223.22</InstdAmt>
+				</Amt>
+				<ChrgBr>DEBT</ChrgBr>
+				<CdtrAgt>
+					<FinInstnId>
+						<ClrSysMmbId>
+							<MmbId>CITIMYKL</MmbId>
+						</ClrSysMmbId>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>TEST BENEFICIARY NAME</Nm>
+					<PstlAdr>
+						<AdrTp>ADDR</AdrTp>
+						<Ctry>MY</Ctry>
+						<AdrLine>123 BUILDING, LEVEL 45 ABC STREET, </AdrLine>
+						<AdrLine>NEW TOWN 67-8, 90123</AdrLine>
+					</PstlAdr>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<Othr>
+							<Id>123456789012345</Id>
+						</Othr>
+					</Id>
+				</CdtrAcct>
+				<RmtInf>
+					<Ustrd>/REX/</Ustrd>
+					<Ustrd>DETAILSLIMIT T0 18</Ustrd>
+					<Ustrd>/PMDD/.</Ustrd>
+					<Ustrd>/PMDD/Gas, natural and manufactured</Ustrd>
+					<Ustrd>/PMDD/20171023 INV123123 MOREINFO</Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>

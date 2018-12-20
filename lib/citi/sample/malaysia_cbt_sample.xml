@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns:xsi="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>1000046112</MsgId>
+			<CreDtTm>2016-10-26T16:03:01</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Nm>TEST INITIATING PARTY</Nm>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>MY00CBFT00000001</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>URGP</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Prtry>CITI392</Prtry>
+				</LclInstrm>
+			</PmtTpInf>
+			<ReqdExctnDt>2017-08-02</ReqdExctnDt>
+			<Dbtr>
+				<Nm>TEST ORDERING PARTY NAME</Nm>
+				<PstlAdr>
+					<AdrLine>ADDRESS1</AdrLine>
+					<AdrLine>ADDRESS2</AdrLine>
+					<AdrLine>ADDRESS3</AdrLine>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>987654321</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CITIMYKL</BIC>
+					<PstlAdr>
+						<Ctry>MY</Ctry>
+					</PstlAdr>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtTrfTxInf>
+				<PmtId>
+					<EndToEndId>MY00CBFT00B01</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="EUR">203000.00</InstdAmt>
+				</Amt>
+				<ChrgBr>DEBT</ChrgBr>
+				<CdtrAgt>
+					<FinInstnId>
+						<BIC>CITISGSG</BIC>
+						<Nm>TEST BENEFICIARY BANK</Nm>
+						<PstlAdr>
+							<Ctry>SG</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>TEST BENEFICIARY NAME</Nm>
+					<PstlAdr>
+						<Ctry>SG</Ctry>
+						<AdrLine>123 BUILDING, LEVEL 45 ABC STREET, </AdrLine>
+						<AdrLine>NEW TOWN 67-8, 90123</AdrLine>
+					</PstlAdr>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<Othr>
+							<Id>123456789012345</Id>
+						</Othr>
+					</Id>
+				</CdtrAcct>
+				<RgltryRptg>
+					<Dtls>
+						<Inf>06000</Inf>
+					</Dtls>
+				</RgltryRptg>
+				<RmtInf>
+					<Ustrd>/REX/</Ustrd>
+					<Ustrd>Payment details</Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
