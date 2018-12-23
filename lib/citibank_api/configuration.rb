@@ -1,4 +1,4 @@
-module CitibankRuby
+module CitibankApi
   class Configuration
     attr_accessor :client_id, :secret_key
     def initialize

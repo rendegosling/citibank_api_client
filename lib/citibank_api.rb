@@ -1,16 +1,16 @@
-require 'citibank_ruby/configuration'
+require 'citibank_api/configuration'
 
-module CitibankRuby
+module CitibankApi
   class << self
     attr_accessor :configuration
   end
 
   def self.configuration
-    @configuration ||= CitibankRuby::Configuration.new
+    @configuration ||= CitibankApi::Configuration.new
   end
 
   def self.reset
-    @configuration = CitibankRuby::Configuration.new
+    @configuration = CitibankApi::Configuration.new
   end
 
   def self.configure

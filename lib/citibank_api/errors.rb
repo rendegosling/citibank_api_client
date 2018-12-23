@@ -1,3 +1,3 @@
-module CitibankRuby
+module CitibankApi
   class Error < StandardError; end
 end

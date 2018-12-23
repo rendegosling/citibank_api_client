@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "citibank_ruby/version"
+require "citibank_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "citibank_ruby"
-  spec.version       = CitibankRuby::VERSION
+  spec.name          = "citibank_api"
+  spec.version       = CitibankApi::VERSION
   spec.authors       = ["Ren"]
   spec.email         = ["renlesterdeguzman@gmail.com"]
 
