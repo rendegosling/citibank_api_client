@@ -1,3 +1,3 @@
-module CitibankApi
+module CitibankAPI
   class Error < StandardError; end
 end

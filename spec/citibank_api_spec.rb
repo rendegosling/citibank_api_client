@@ -1,18 +1,18 @@
-RSpec.describe CitibankApi do
+RSpec.describe CitibankAPI do
   it "has a version number" do
-    expect(CitibankApi::VERSION).not_to be nil
+    expect(CitibankAPI::VERSION).not_to be nil
   end
 
   it "can set client id and secret key" do
     test_id = "test_id"
     secret = "secret"
 
-    CitibankApi.configure do |config|
+    CitibankAPI.configure do |config|
       config.client_id = test_id
       config.secret_key = secret
     end
 
-    expect(CitibankApi.configuration.client_id).to eq test_id
-    expect(CitibankApi.configuration.secret_key).to eq secret
+    expect(CitibankAPI.configuration.client_id).to eq test_id
+    expect(CitibankAPI.configuration.secret_key).to eq secret
   end
 end
